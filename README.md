@@ -62,8 +62,8 @@ EmbarcaTech_U4_Matriz
   - buttons.h
   - led_rgb.c
   - led_rgb.h
-  - matriz_led.c
-  - matriz_led.h
+  - _led.c
+  - _led.h
   - numbers.c
   - numbers.h
 
@@ -84,9 +84,9 @@ EmbarcaTech_U4_Matriz
 
 ## ⚙️ Funcionalidades
 - O LED vermelho do LED RGB pisca 5 vezes por segundo.
-- O botão A incrementa o número exibido na matriz a cada pressão.
-- O botão B decrementa o número exibido na matriz a cada pressão.
-- A matriz de LEDs é usada para criar efeitos visuais que representam números de 0 a 9.
+- O botão A incrementa o número exibido na  a cada pressão.
+- O botão B decrementa o número exibido na  a cada pressão.
+- A  de LEDs é usada para criar efeitos visuais que representam números de 0 a 9.
 
 ---
 
@@ -111,10 +111,10 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
   - Abra o terminal de comando Git Bash 
   - Clone o repositório do GitHub com o comando:
 ```
-$ git clone https://github.com/Dyeorn/EmbarcaTech_U4_Matriz
+$ git clone https://github.com/Dyeorn/EmbarcaTech_U4_Interruption
 ```
 - Opção 2:
-  - No repósitorio [EMBARCATECH_U4_MATRIZ](https://github.com/Dyeorn/EmbarcaTech_U4_Matriz) aperte o Botão <i><>code</i>
+  - No repósitorio [EMBARCATECH_U4_INTERRUPTION](https://github.com/Dyeorn/EmbarcaTech_U4_Interruption) aperte o Botão <i><>code</i>
   - Aperte a opção <i>Dowload ZIP</i>
 
 
