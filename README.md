@@ -168,7 +168,11 @@ elf = 'build/main.elf'
 
 
 
-https://github.com/user-attachments/assets/video_demonstration.mp4
+
+
+
+https://github.com/user-attachments/assets/a6a6d2a2-1027-4b8e-a016-a52cf35b4324
+
 
 
 
