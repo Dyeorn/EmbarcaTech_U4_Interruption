@@ -69,7 +69,7 @@ EmbarcaTech_U4_Matriz
 
 - CMakeLists.txt
 
-- diagram.json&emsp;&emsp;&emsp;&emsp; # Arquivo Wokwi do BitDogLab
+- diagram.json&emsp;&emsp;&emsp;&emsp;# Arquivo Wokwi do BitDogLab
 
 - main.c&emsp;&emsp;&emsp;&emsp; # Código principal do projeto
 
