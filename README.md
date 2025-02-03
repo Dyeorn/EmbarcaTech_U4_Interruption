@@ -1,8 +1,8 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
-<h1 align="center"><img align="center" style="border-radius: 100%;" src="https://github.com/user-attachments/assets/d96d3f73-4cff-4f9f-9feb-cf8a7ccfd9d3" width="300px;" alt=""><br>Animation BitDogLab</h1>
+<h1 align="center"><img align="center" style="border-radius: 100%;" src="https://github.com/user-attachments/assets/d96d3f73-4cff-4f9f-9feb-cf8a7ccfd9d3" width="300px;" alt=""><br>Interruption BitDogLab</h1>
 
 <h3 align="center">
-   Interrupções na placa BitDogLab em Linguagem c
+   Interrupções na placa BitDogLab em Linguagem C
 </h3>
 
 ---
@@ -28,16 +28,22 @@ Tabela de conteúdos
 
 ## 💻 Sobre o projeto
 
-O projeto de Interrupções em Linguagem C, é um sistema teste desenvolvido para fixação e experimentação do conteúdo proposto pelo curso.
+Este projeto implementa um sistema utilizando a placa BitDogLab com componentes como matriz de LEDs, LED RGB e botões, onde as interrupções são utilizadas para tratar eventos como incrementos e decrementos de um número exibido na matriz de LEDs. O LED RGB pisca em vermelho continuamente enquanto os botões A e B permitem aumentar ou diminuir o número mostrado.
 
-Projeto desenvolvido durante o curso de Formação Básica em Software Embarcado oferecido pela [Embarcatech](https://embarcatech.softex.br).
-A Formação Básica em Software Embarcado da Embarcatech é um programa de capacitação profissional técnica destinado a alunos de nível superior e técnico em Tecnologias da Informação e Comunicação (TIC) e áreas correlatas, focado em tecnologias de Sistemas Embarcados.
+Projeto desenvolvido durante o curso de Formação Básica em Software Embarcado oferecido pela [Embarcatech]. A Formação Básica em Software Embarcado da Embarcatech é um programa de capacitação profissional técnica destinado a alunos de nível superior e técnico em Tecnologias da Informação e Comunicação (TIC) e áreas correlatas, focado em tecnologias de Sistemas Embarcados.
+
+Requisitos:
+
+Matriz 5x5 de LEDs (conectada à GPIO 7)
+LED RGB (conectado às GPIOs 11, 12 e 13)
+Botão A (conectado à GPIO 5)
+Botão B (conectado à GPIO 6)
 
 ---
 
 ## 🎨 Layout Repositorio Github
 <i>
-EmbarcaTech_Unidade4_Matriz
+EmbarcaTech_U4_Matriz
 
 - .vscode/&emsp;&emsp;&emsp;&emsp;# Arquivos .json
   - c_cpp_properties.json
@@ -48,6 +54,7 @@ EmbarcaTech_Unidade4_Matriz
   - tasks.json
 
 - assets/&emsp;&emsp;&emsp;&emsp;# Midias do Projeto
+    - diagrama.png
 
 - src/&emsp;&emsp;&emsp;&emsp;# códigos do projeto
   - buttons.c
@@ -79,13 +86,10 @@ EmbarcaTech_Unidade4_Matriz
 ---
 
 ## ⚙️ Funcionalidades
-- Botoes A e B:
-  - A: Incrementa 1 unidade.
-  - B: Decrementa 1 unidade.
-- Matriz de LED 5x5:
-  - Mostra o número atual que foi incrementado ou decrementado.
-- LED RGB:
-  - LED RGB piscando em vermelho, 5x por segundo.
+- O LED vermelho do LED RGB pisca 5 vezes por segundo.
+- O botão A incrementa o número exibido na matriz a cada pressão.
+- O botão B decrementa o número exibido na matriz a cada pressão.
+- A matriz de LEDs é usada para criar efeitos visuais que representam números de 0 a 9.
 
 ---
 
@@ -164,13 +168,13 @@ elf = 'build/main.elf'
 
 
 
-https://github.com/user-attachments/assets/1cb5ff3f-3bc1-4b1f-a468-651a5e83f5a7
+https://github.com/user-attachments/assets/video_demonstration
 
 
 
 
 
-- Dowload HD video completo: https://github.com/Embarcatech-Grupo1-Subgrupo3/Animation-BitDogLab/blob/main/assets/Video_Demonstrativo_Atividade.mp4
+- Vídeo em HD: https://youtu.be/kVpC6IiY0Ps
 
 ---
 
@@ -194,8 +198,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 👨‍💻 Contribuidores
 
-João Pedro Jacó Leite
-Mentor: MANOEL MESSIAS DA SILVA JUNIOR
+- João Pedro Jacó Leite
+- Mentor: MANOEL MESSIAS DA SILVA JUNIOR
 
 <table>
   <tr>
