@@ -34,10 +34,10 @@ Projeto desenvolvido durante o curso de Formação Básica em Software Embarcado
 
 Requisitos:
 
-Matriz 5x5 de LEDs (conectada à GPIO 7)
-LED RGB (conectado às GPIOs 11, 12 e 13)
-Botão A (conectado à GPIO 5)
-Botão B (conectado à GPIO 6)
+- Matriz 5x5 de LEDs (conectada à GPIO 7)
+- LED RGB (conectado às GPIOs 11, 12 e 13)
+- Botão A (conectado à GPIO 5)
+- Botão B (conectado à GPIO 6)
 
 ---
 
