@@ -55,6 +55,7 @@ EmbarcaTech_U4_Matriz
 
 - assets/&emsp;&emsp;&emsp;&emsp;# Midias do Projeto
     - diagrama.png
+    - Video_Demonstration
 
 - src/&emsp;&emsp;&emsp;&emsp;# códigos do projeto
   - buttons.c
@@ -66,15 +67,11 @@ EmbarcaTech_U4_Matriz
   - numbers.c
   - numbers.h
 
-- .gitignore
-
 - CMakeLists.txt
 
-- README.md
+- diagram.json&emsp;&emsp;&emsp;&emsp; # Arquivo Wokwi do BitDogLab
 
-- diagram.json&emsp;&emsp;&emsp;&emsp;# Arquivo Wokwi do BitDogLab
-
-- main.c&emsp;&emsp;&emsp;&emsp;# Código principal do projeto
+- main.c&emsp;&emsp;&emsp;&emsp; # Código principal do projeto
 
 - pico_sdk_import.cmake
 
@@ -187,7 +184,6 @@ https://github.com/user-attachments/assets/a6a6d2a2-1027-4b8e-a016-a52cf35b4324
 As seguintes ferramentas foram usadas na construção do projeto:
 
 #### **Websites**
--   **[Visual Studio code](https://code.visualstudio.com)**
 -   **[Github](https://github.com)**
 -   **[Wokwi Web](https://gcc.gnu.org)**
 
@@ -195,6 +191,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 #### **Utilitários**
 
 -   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**  → Extensions:  **[C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools), [C/C++ Compile Run](https://marketplace.visualstudio.com/items?itemName=danielpinto8zz6.c-cpp-compile-run), [Raspberry Pi Pico](https://marketplace.visualstudio.com/items?itemName=raspberry-pi.raspberry-pi-pico) e [Wokwi Simulator](https://marketplace.visualstudio.com/items?itemName=Wokwi.wokwi-vscode)**
+
+### **Versionamento**
 -   **[Git](https://git-scm.com)**
 
 
@@ -207,7 +205,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <table>
   <tr>
-    <td align="center"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/112970376?v=4" width="100px;"/><br/><a href="https://github.com/Dyeorn">João Pedro Jacó<a/><br/><br/><a href="https://github.com/ferreiramateusalencar/Conversor-de-Unidades-C" title="Integrante">🌐</a></td>
+    <td align="center"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/112970376?v=4" width="100px;"/><br/><a href="https://github.com/Dyeorn">João Pedro Jacó<a/><br/><br/><a title="Integrante">🌐</a></td>
   </tr>
 </table>
       
